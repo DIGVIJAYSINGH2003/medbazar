@@ -57,6 +57,12 @@
      margin-top: 2vh;
  
  }
+ p#tagline{
+    position: absolute;
+    left:  15vw;
+    color: black;
+    
+}
  div#div_for_search{
      display: flex;
      position: relative;
@@ -64,18 +70,38 @@
      justify-content: center;
      margin-top: 3vh;
  }
- p#tagline{
-     position: absolute;
-     left:  15vw;
-     color: black;
-     
+ div#search_logo{
+     height: 5vh;
+     width: 3.88vw;
+     position:absolute;
+     left: 18.1vw;
+   
  }
+ 
  input#input_med{
      flex: 0.6;
-     height: 4vh;
+     height: 5vh;
      border-radius: 0;
-     background-color: rgba(0, 0, 0, 0.5);
-     color: rgb(255, 248, 248);
+     background-color: rgba(5, 1, 1, 0.344);
+     color: rgb(250, 248, 248);
+     padding-inline-start: 2.4vw;
+     border: none;
+     backdrop-filter: blur(15px);
+     
+ }
+ input::placeholder{
+     color: rgba(49, 48, 48, 0.589);
+     font-weight: bolder;
+ }input.middle:focus{
+     outline-width:0;
+     
+     /* outline-width: none; */
+ }
+ button{
+
+    background-color: rgba(167, 228, 233, 0.815);
+    padding:0.1vw;
+    border: solid 0.3px rgb(112, 109, 109);
  }
      #section_for_adv{
          display: flex;
@@ -92,7 +118,7 @@
          width: 200px;
          background-color:rgba(255, 255, 255, 0.08)  ;
          backdrop-filter: blur(30px);
-         border: solid rgba(14, 12, 12, 0.411) 0.1px;
+         border: solid rgba(180, 176, 176, 0.377) 0.1px;
          border-radius: 28px;
          transform:rotateZ(0deg);
          
