@@ -118,7 +118,11 @@
          width: 200px;
          background-color:rgba(255, 255, 255, 0.08)  ;
          backdrop-filter: blur(30px);
+<<<<<<< HEAD
          border: solid rgba(180, 176, 176, 0.377) 0.1px;
+=======
+         border: solid rgba(243, 238, 238, 0.377) 0.1px;
+>>>>>>> 7040090631c3283fb0e45b80f8bb31278ad5b422
          border-radius: 28px;
          transform:rotateZ(0deg);
          
